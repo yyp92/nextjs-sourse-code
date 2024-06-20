@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        // * 模块别名
+        "paths": {
+            "@/*": ["./*"],
+            "@/components/*": ["components/*"]
+        },
+
+        // * 绝对地址导入
+        // baseUrl配置项可以让你从项目根目录中直接导入
+        "baseUrl": "."
+    }
+}
